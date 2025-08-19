@@ -14,7 +14,7 @@ coverage/
 
 # Add files
 git add .
-git commit -m "Initial commit: React Offline Sync Hook v1.0.0"
+git commit -m "Initial commit: React Offline Sync Hook v1.0.1"
 
 # Push to GitHub
 git remote add origin https://github.com/gohel-biren1111/react-offline-sync-hook.git
