@@ -78,10 +78,10 @@ Uper diye gaye sab artifacts ko apne project me copy kar do:
   "name": "react-offline-sync-hook",
   "version": "1.0.0",
   "description": "A comprehensive React hook for offline data synchronization",
-  "author": "Your Name <your.email@example.com>",
+  "author": "[Biren Gohel](https://github.com/biren-gohel-1111) ",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-offline-sync-hook.git"
+    "url": "https://github.com/gohel-biren1111/react-offline-sync-hook.git"
   }
 }
 ```
@@ -151,7 +151,7 @@ git add .
 git commit -m "Initial commit: React Offline Sync Hook v1.0.0"
 
 # Push to GitHub
-git remote add origin https://github.com/yourusername/react-offline-sync-hook.git
+git remote add origin https://github.com/gohel-biren1111/react-offline-sync-hook.git
 git branch -M main
 git push -u origin main
 ```
@@ -182,7 +182,7 @@ npm publish --dry-run
 npm publish
 
 # If you get naming conflict, change name in package.json:
-# "name": "@yourusername/react-offline-sync-hook"
+# "name": "gohel-biren1111/react-offline-sync-hook"
 ```
 
 ## 📊 Step 10: Verify Publication
@@ -215,7 +215,6 @@ npm publish
 1. **Create GitHub README badges**:
 
 ```markdown
-![npm version](https://badge.fury.io/js/react-offline-sync-hook.svg)
 ![npm downloads](https://img.shields.io/npm/dm/react-offline-sync-hook.svg)
 ![license](https://img.shields.io/npm/l/react-offline-sync-hook.svg)
 ```
