@@ -1,4 +1,4 @@
-# React Offline Sync Hook 📦
+# React Offline Sync Hook 🗄️
 
 **The website will work even when the network is offline.**
 
@@ -7,7 +7,7 @@ A comprehensive React hook for offline data synchronization with automatic confl
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-%230074c1.svg)](http://www.typescriptlang.org/)
 
-## ✅ Features (20/20)
+## ✅ Features
 
 1. **React Hook** → `useOfflineSync` (core)
 2. **LocalStorage Adapter** → Fast, simple storage
@@ -30,7 +30,7 @@ A comprehensive React hook for offline data synchronization with automatic confl
 19. **Universal Support** → Next.js, CRA, Remix
 20. **Easy API Integration** → Ready-to-use
 
-## 🚀 Documentation
+## 🚀 Live Demo & Documentation
 
 - **Coming Soon...**
 
