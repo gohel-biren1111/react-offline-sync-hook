@@ -38,12 +38,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/react-offline-sync-hook.git"
+    "url": "git+https://github.com/gohel-biren1111/react-offline-sync-hook.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/react-offline-sync-hook/issues"
+    "url": "https://github.com/gohel-biren1111/react-offline-sync-hook"
   },
-  "homepage": "https://github.com/yourusername/react-offline-sync-hook#readme",
+  "homepage": "https://github.com/gohel-biren1111/react-offline-sync-hook",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
