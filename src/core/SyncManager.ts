@@ -1,9 +1,4 @@
-import {
-  SyncConfig,
-  QueueItem,
-  StorageAdapter,
-  ConflictResolutionOptions,
-} from "../types";
+import { SyncConfig, QueueItem, StorageAdapter } from "../types";
 import { QueueManager } from "./QueueManager";
 import { Logger } from "../utils/logger";
 import { NetworkManager } from "../utils/network";

@@ -53,15 +53,18 @@ Object.defineProperty(navigator, "onLine", {
 });
 
 // Mock service worker
-global.navigator.serviceWorker = {
-  register: jest.fn(() =>
-    Promise.resolve({
-      sync: {
-        register: jest.fn(),
-      },
-    })
-  ),
-} as any;
+Object.defineProperty(global.navigator, "serviceWorker", {
+  value: {
+    register: jest.fn(() =>
+      Promise.resolve({
+        sync: {
+          register: jest.fn(),
+        },
+      })
+    ),
+  },
+  writable: true,
+});
 
 // Mock window events
 global.addEventListener = jest.fn();
