@@ -1,20 +1,24 @@
 {
   "name": "react-offline-sync-hook",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A comprehensive React hook for offline data synchronization with automatic conflict resolution and queue management",
   "type": "commonjs",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "files": [
     "dist",
     "README.md",
     "LICENSE"
   ],
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "build": "tsc && rollup -c",
     "test": "jest",
+    "dev": "rollup -c -w",
     "test:watch": "jest --watch",
     "lint": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
@@ -45,8 +49,8 @@
   },
   "homepage": "https://github.com/gohel-biren1111/react-offline-sync-hook",
   "peerDependencies": {
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.0",
@@ -59,7 +63,7 @@
     "@rollup/plugin-typescript": "^11.0.0",
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^13.4.0",
-    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/react-hooks": "^8.0.1",
     "@types/jest": "^29.5.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
@@ -375,6 +379,7 @@
     "queue-microtask": "^1.2.3",
     "react-error-boundary": "^3.1.4",
     "react-is": "^17.0.2",
+    "react-offline-sync-hook": "file:react-offline-sync-hook-1.0.5.tgz",
     "redent": "^3.0.0",
     "reflect.getprototypeof": "^1.0.10",
     "regenerate": "^1.4.2",
